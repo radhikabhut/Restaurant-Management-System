@@ -6,6 +6,24 @@ Thumbs.db
 # Root temp files
 .codex
 
+# Go binaries and coverage
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+go.work
+go.work.sum
+
+# Environment files
+.env
+backend/.env
+
 # Go backend
 backend/bin/
 backend/dist/
