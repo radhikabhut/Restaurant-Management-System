@@ -1,0 +1,34 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Root temp files
+.codex
+
+# Go backend
+backend/bin/
+backend/dist/
+backend/coverage.out
+
+# Flutter frontend
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/pubspec_overrides.yaml
+
+# Flutter platform ephemeral files
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/ios/Flutter/ephemeral/
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/macos/Flutter/ephemeral/
+frontend/windows/flutter/ephemeral/
+frontend/linux/flutter/ephemeral/
+
+# IDE files
+frontend/*.iml
+frontend/android/*.iml
