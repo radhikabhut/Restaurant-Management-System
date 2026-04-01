@@ -50,3 +50,4 @@ frontend/linux/flutter/ephemeral/
 # IDE files
 frontend/*.iml
 frontend/android/*.iml
+run_instructions.md
